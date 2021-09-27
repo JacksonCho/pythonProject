@@ -5,7 +5,7 @@ print(money)
 #s为取款金额
 s = 100
 if money >= s:
-    money -= s
+    money = money - s
     print('余额为',money)
 
 
@@ -14,6 +14,9 @@ if num%2 == 0:
     print('该数字为偶数')
 else:
     print('该数字为奇数')
+
+
+print('Hello World')
 
 score = int(input('请输入你的成绩'))
 if score >= 90 and score <= 100:
